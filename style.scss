@@ -28,6 +28,22 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    overflow-x: hidden;
+}
+
+
+/* ------ USED TO MAKE THE SCROLL BAR INVISIBLE BUT RETIAN THE FUNCTIONALITY ------ */
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+
+
+
 a{text-decoration: none;}
 
 .container{
