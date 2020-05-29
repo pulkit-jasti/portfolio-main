@@ -21,8 +21,7 @@ a {
 }
 
 .button_2 {
-  border-color: #f8f8f8;
-  background-image: linear-gradient(45deg, #f8f8f8 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #ff5851 50%, transparent 50%);
   background-position: 100%;
   background-size: 400%;
   -webkit-transition: all .25s ease-in-out;
@@ -31,13 +30,12 @@ a {
   border: 2px solid #ff5851;
   font-size: 150%;
   text-align: center;
-  color: #ff5851;
+  color: #f8f8f8;
 }
 
 .button_2:hover {
   background-position: 0;
-  color: #1c1b20;
-  border-color: #f8f8f8;
+  color: #f8f8f8;
 }
 
 .section-title-1 {
@@ -120,13 +118,14 @@ a {
 .home .container .hero-text .name {
   font-family: 'SF Mono Heavy';
   color: #ff5851;
-  font-size: 6rem;
+  font-size: 6.5rem;
 }
 
 .home .container .hero-text h1 {
   font-family: 'SF Mono Bold';
-  font-size: 5rem;
+  font-size: 4.6rem;
   letter-spacing: -3px;
+  color: rgba(248, 248, 248, 0.5);
 }
 
 .home .container .hero-text .btn {

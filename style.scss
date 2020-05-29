@@ -32,27 +32,25 @@ a{text-decoration: none;}
     //background-color: lightblue;
 }
 
-$accent-c: $silver;
+$accent: $bright-red;
 $text-color: $silver;
 
 .button_2{
-    border-color: $accent-c;
     background: {
-        image: linear-gradient(45deg,$accent-c 50%, transparent 50%);
+        image: linear-gradient(45deg,$accent 50%, transparent 50%);
         position: 100%;
         size: 400%;
     }
     transition: all .25s ease-in-out;
     padding: 12px 15px;
-    border: 2px solid $bright-red;
+    border: 2px solid $accent;
     font-size: 150%;
     text-align: center;
-    color: $bright-red;
+    color: $silver;
 
     &:hover {
         background-position: 0;
-        color: $not-black-but-dark;
-        border-color: $accent-c;
+        color: $silver;
     }
 }
 
@@ -149,13 +147,14 @@ $text-color: $silver;
             .name{
                 font-family: 'SF Mono Heavy';
                 color: $bright-red;
-                font-size: 6rem;
+                font-size: 6.5rem;
             }
 
             h1{
                 font-family: 'SF Mono Bold';
-                font-size: 5rem;
+                font-size: 4.6rem;
                 letter-spacing: -3px;
+                color: rgba(248, 248, 248, 0.5);
             }
 
             .btn{
