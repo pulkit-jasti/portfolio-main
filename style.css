@@ -136,6 +136,7 @@ a {
 
 .social-container .social-wrapper .icons i {
   margin-bottom: 15px;
+  color: #f8f8f8;
 }
 
 .social-container .social-wrapper .icons i:hover {
@@ -163,7 +164,11 @@ a {
   font-size: 1.3rem;
 }
 
-.email-container .email-wrapper .email:hover {
+.email-container .email-wrapper .email a {
+  color: #f8f8f8;
+}
+
+.email-container .email-wrapper .email a:hover {
   color: #ff5851;
 }
 

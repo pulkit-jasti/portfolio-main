@@ -38,10 +38,7 @@ body{
 body::-webkit-scrollbar {
     display: none;
 }
-
 /* -------------------------------------------------------------------------------- */
-
-
 
 
 a{text-decoration: none;}
@@ -166,6 +163,7 @@ $text-color: $silver;
 
                 i{
                     margin-bottom: 15px;
+                    color: $silver;
 
                     &:hover{
                         color: $bright-red;
@@ -189,9 +187,13 @@ $text-color: $silver;
                 display: flex;
                 flex-direction: column;
                 font-size: 1.3rem;
+                
+                a{
+                    color: $silver;
 
-                &:hover{
-                    color: $bright-red;
+                    &:hover{
+                        color: $bright-red;
+                    }
                 }
             }
         }
