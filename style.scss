@@ -24,6 +24,10 @@ $silver:#f8f8f8;
     list-style: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 a{text-decoration: none;}
 
 .container{
@@ -169,7 +173,7 @@ $text-color: $silver;
 
 
 .about{
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     background-color:$not-black-but-dark;
 
@@ -224,6 +228,73 @@ $text-color: $silver;
                     z-index: 5;
                     width: 85%;
                 }
+            }
+        }
+    }
+}
+
+
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: $not-black-but-dark;
+
+    h3{
+        color: $silver;
+        font-size: 5rem;
+        margin-bottom: 50px;
+        padding-top: 70px;
+        //font-family: 'SF Mono Bold';
+        font-family: 'Josefin Sans';
+        text-align: center;
+    }
+
+    .container{
+        height: auto;
+        @include flexcenter();
+        flex-direction: column;
+        //background-color: lightblue;
+        position: relative;
+
+        p, h6{
+            max-width: 60%;
+            text-align: center;
+            color: $silver;
+            font-family: 'Josefin Sans';
+            font-size: 1.5rem;
+        }
+
+        p{
+            margin-bottom: 1em;
+            line-height: 1.9rem;
+        }
+
+        h6{
+            color: rgba(248, 248, 248, 0.5);
+        }
+
+        .btn{
+            //position: absolute;
+            margin: 70px 0 30px 0;
+            font-family: 'SF Mono Semibold';
+            letter-spacing: -1px;
+        }
+
+        h2{
+            margin-top: 50px;
+            font-family: 'Josefin Sans';
+            font-size: 4.5rem;
+            padding-bottom: 10px;
+
+            a, a:visited, a::before, a::after{
+                text-decoration: none !important;
+                color: $bright-red;
+            }
+
+            &:hover{
+                border-bottom: 8px solid $bright-red;
+                cursor: pointer;
             }
         }
     }
