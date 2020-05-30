@@ -33,7 +33,7 @@ body{
 }
 
 
-/* ------ USED TO MAKE THE SCROLL BAR INVISIBLE BUT RETIAN THE FUNCTIONALITY ------ */
+/* ------ USED TO MAKE THE SCROLL BAR INVISIBLE BUT RETIAN THE FUNCTIONALITY ------ *
 
 body::-webkit-scrollbar {
     display: none;
@@ -44,7 +44,7 @@ body::-webkit-scrollbar {
 a{text-decoration: none;}
 
 .container{
-    padding: 0 10% 0 13%;
+    padding: 0 10%;
     width: 100%;
     //background-color: lightblue;
 }
@@ -318,6 +318,74 @@ $text-color: $silver;
         }
     }
 }
+
+
+
+.projects{
+    height: 150vh;
+    width: 100%;
+    background-color: $not-black-but-dark;
+
+    .container{
+        padding-top: 100px;
+
+        .tile-container{
+            padding-top: 100px;
+            display: flex;
+            flex-flow: wrap;
+            justify-content: space-around;
+
+            .tile{
+                height: 200px;
+                min-width: 320px;
+                background-color: lightcoral;
+                margin-bottom: 3vw;
+                background-position: center;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

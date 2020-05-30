@@ -19,18 +19,18 @@ body {
   overflow-x: hidden;
 }
 
-/* ------ USED TO MAKE THE SCROLL BAR INVISIBLE BUT RETIAN THE FUNCTIONALITY ------ */
-body::-webkit-scrollbar {
-  display: none;
-}
+/* ------ USED TO MAKE THE SCROLL BAR INVISIBLE BUT RETIAN THE FUNCTIONALITY ------ *
 
+body::-webkit-scrollbar {
+    display: none;
+}
 /* -------------------------------------------------------------------------------- */
 a {
   text-decoration: none;
 }
 
 .container {
-  padding: 0 10% 0 13%;
+  padding: 0 10%;
   width: 100%;
 }
 
@@ -292,6 +292,35 @@ a {
   position: relative;
   z-index: 5;
   width: 85%;
+}
+
+.projects {
+  height: 150vh;
+  width: 100%;
+  background-color: #1c1b20;
+}
+
+.projects .container {
+  padding-top: 100px;
+}
+
+.projects .container .tile-container {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.projects .container .tile-container .tile {
+  height: 200px;
+  min-width: 320px;
+  background-color: lightcoral;
+  margin-bottom: 3vw;
+  background-position: center;
 }
 
 .contact {
