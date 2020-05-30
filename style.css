@@ -333,9 +333,8 @@ a {
 
 .projects .container .tile-container .tile-wrapper {
   position: relative;
-  height: 200px;
+  height: 230px;
   min-width: 320px;
-  background-color: lightcoral;
   margin-bottom: 3vw;
   background-position: center;
   overflow: hidden;
@@ -355,7 +354,7 @@ a {
   text-transform: capitalize;
   font-family: 'Josefin sans';
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   -webkit-transition-duration: 400ms;
           transition-duration: 400ms;
   -webkit-transition-timing-function: ease;
@@ -367,7 +366,6 @@ a {
   height: 100%;
   width: 100%;
   z-index: 3;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .projects .container .tile-container .tile-wrapper .temp-overlay {
@@ -376,7 +374,6 @@ a {
   z-index: 4;
   height: 100%;
   width: 100%;
-  background-color: #323232;
   -webkit-transition-duration: 400ms;
           transition-duration: 400ms;
   -webkit-transition-timing-function: ease;
@@ -391,9 +388,9 @@ a {
 }
 
 .projects .container .tile-container .tile-wrapper .temp-overlay .text-wrapper p {
-  font-size: .9rem;
-  font-family: 'SF Mono Regular';
-  line-height: 1.2rem;
+  font-size: 1.2rem;
+  font-family: 'Josefin sans';
+  line-height: 1.7rem;
 }
 
 .projects .container .tile-container .tile-wrapper .temp-overlay .text-wrapper .btn-container {
@@ -424,12 +421,8 @@ a {
   font-size: 1.4rem;
 }
 
-.projects .container .tile-container .tile-wrapper .temp-overlay .text-wrapper .btn-container .btn-wrapper:hover {
-  color: #ff5851;
-}
-
 .projects .container .tile-container .tile-wrapper:hover {
-  background-position-y: -100px;
+  background-position-y: -20px;
 }
 
 .projects .container .tile-container .tile-wrapper:hover h3 {
@@ -438,6 +431,102 @@ a {
 
 .projects .container .tile-container .tile-wrapper:hover .temp-overlay {
   top: 0;
+}
+
+.projects .container .tile-container .tile-1 {
+  background-image: url("images/projects/apple.PNG");
+}
+
+.projects .container .tile-container .tile-1 .perm-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.projects .container .tile-container .tile-1 .temp-overlay {
+  background-color: #2d2d2d;
+}
+
+.projects .container .tile-container .tile-1 .temp-overlay .btn-container .btn-wrapper:hover {
+  color: rgba(109, 109, 109, 0.7);
+}
+
+.projects .container .tile-container .tile-2 {
+  background-image: url("images/projects/books.PNG");
+}
+
+.projects .container .tile-container .tile-2 .perm-overlay {
+  background-color: rgba(241, 63, 75, 0.7);
+}
+
+.projects .container .tile-container .tile-2 .temp-overlay {
+  background-color: #f13f4b;
+}
+
+.projects .container .tile-container .tile-2 .temp-overlay .btn-container .btn-wrapper:hover {
+  color: #f13f4b;
+}
+
+.projects .container .tile-container .tile-3 {
+  background-image: url("images/projects/fashion.PNG");
+}
+
+.projects .container .tile-container .tile-3 .perm-overlay {
+  background-color: rgba(218, 74, 22, 0.92);
+}
+
+.projects .container .tile-container .tile-3 .temp-overlay {
+  background-color: #da4a16;
+}
+
+.projects .container .tile-container .tile-3 .temp-overlay .btn-container .btn-wrapper:hover {
+  color: #da4a16;
+}
+
+.projects .container .tile-container .tile-4 {
+  background-image: url("images/projects/greenify.PNG");
+}
+
+.projects .container .tile-container .tile-4 .perm-overlay {
+  background-color: rgba(28, 116, 61, 0.8);
+}
+
+.projects .container .tile-container .tile-4 .temp-overlay {
+  background-color: #1c743d;
+}
+
+.projects .container .tile-container .tile-4 .temp-overlay .btn-container .btn-wrapper:hover {
+  color: #1c743d;
+}
+
+.projects .container .tile-container .tile-5 {
+  background-image: url("images/projects/nike.PNG");
+}
+
+.projects .container .tile-container .tile-5 .perm-overlay {
+  background-color: rgba(214, 72, 59, 0.7);
+}
+
+.projects .container .tile-container .tile-5 .temp-overlay {
+  background-color: #d6483b;
+}
+
+.projects .container .tile-container .tile-5 .temp-overlay .btn-container .btn-wrapper:hover {
+  color: #d6483b;
+}
+
+.projects .container .tile-container .tile-6 {
+  background-image: url("images/projects/spectaculaire.PNG");
+}
+
+.projects .container .tile-container .tile-6 .perm-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.projects .container .tile-container .tile-6 .temp-overlay {
+  background-color: #090909;
+}
+
+.projects .container .tile-container .tile-6 .temp-overlay .btn-container .btn-wrapper:hover {
+  color: #090909;
 }
 
 .contact {

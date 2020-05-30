@@ -352,9 +352,9 @@ $text-color: $silver;
 
             .tile-wrapper{
                 position: relative;
-                height: 200px;
+                height: 230px;
                 min-width: 320px;
-                background-color: lightcoral;
+                //background-color: lightcoral;
                 margin-bottom: 3vw;
                 background-position: center;
                 overflow: hidden;
@@ -372,7 +372,7 @@ $text-color: $silver;
                     text-transform: capitalize;
                     font-family: 'Josefin sans';
                     font-weight: 400;
-                    font-size: 1.6rem;
+                    font-size: 1.9rem;
                     transition-duration: 400ms;
                     transition-timing-function: ease;
                 }
@@ -382,7 +382,7 @@ $text-color: $silver;
                     height: 100%;
                     width: 100%;
                     z-index: 3;
-                    background-color: rgba(0, 0, 0, 0.5);
+                    //background-color: rgba(0, 0, 0, 0.5);
                 }
 
                 .temp-overlay{
@@ -391,7 +391,7 @@ $text-color: $silver;
                     z-index: 4;
                     height: 100%;
                     width: 100%;
-                    background-color: rgba(50, 50, 50, 1);
+                    //background-color: rgba(50, 50, 50, 1);
                     transition-duration: 400ms;
                     transition-timing-function: ease;
 
@@ -402,9 +402,9 @@ $text-color: $silver;
                         padding: 0 20px;
 
                         p{
-                            font-size: .9rem;
-                            font-family: 'SF Mono Regular';
-                            line-height: 1.2rem;
+                            font-size: 1.2rem;
+                            font-family: 'Josefin sans';
+                            line-height: 1.7rem;
                         }
 
                         .btn-container{
@@ -430,7 +430,7 @@ $text-color: $silver;
                                 }
 
                                 &:hover{
-                                    color: $bright-red;
+                                    //color: $bright-red;
                                 }
                             }
                         }
@@ -438,7 +438,7 @@ $text-color: $silver;
                 }
 
                 &:hover{
-                    background-position-y: -100px;
+                    background-position-y: -20px;
 
                     h3{
                         top: 10%;
@@ -450,51 +450,129 @@ $text-color: $silver;
                     }
                 }
             }
+
+            .tile-1{
+                background-image: url('images/projects/apple.PNG');
+
+                .perm-overlay{
+                    background-color: rgba(0, 0, 0, 0.7);
+                }
+
+                .temp-overlay{
+                    background-color: rgb(45, 45, 45);
+
+                    .btn-container{
+                        .btn-wrapper{
+                            &:hover{
+                                color: rgba(109, 109, 109, 0.7);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .tile-2{
+                background-image: url('images/projects/books.PNG');
+
+                .perm-overlay{
+                    background-color: rgba(241, 63, 75, 0.7);
+                }
+
+                .temp-overlay{
+                    background-color: rgb(241, 63, 75);
+
+                    .btn-container{
+                        .btn-wrapper{
+                            &:hover{
+                                color: rgb(241, 63, 75);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .tile-3{
+                background-image: url('images/projects/fashion.PNG');
+
+                .perm-overlay{
+                    background-color: rgba(218, 74, 22, 0.92);
+                }
+
+                .temp-overlay{
+                    background-color: rgb(218, 74, 22);
+
+                    .btn-container{
+                        .btn-wrapper{
+                            &:hover{
+                                color: rgb(218, 74, 22);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .tile-4{
+                background-image: url('images/projects/greenify.PNG');
+
+                .perm-overlay{
+                    background-color: rgba(28, 116, 61, 0.8);
+                }
+
+                .temp-overlay{
+                    background-color: rgb(28, 116, 61);
+
+                    .btn-container{
+                        .btn-wrapper{
+                            &:hover{
+                                color: rgb(28, 116, 61);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .tile-5{
+                background-image: url('images/projects/nike.PNG');
+
+                .perm-overlay{
+                    background-color: rgba(214, 72, 59,.7);
+                }
+
+                .temp-overlay{
+                    background-color: rgb(214, 72, 59);
+
+                    .btn-container{
+                        .btn-wrapper{
+                            &:hover{
+                                color: rgb(214, 72, 59);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .tile-6{
+                background-image: url('images/projects/spectaculaire.PNG');
+
+                .perm-overlay{
+                    background-color: rgba(0, 0, 0, 0.8);
+                }
+
+                .temp-overlay{
+                    background-color: rgb(9, 9, 9);
+
+                    .btn-container{
+                        .btn-wrapper{
+                            &:hover{
+                                color: rgb(9, 9, 9);
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .contact{
