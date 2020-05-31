@@ -6,3 +6,22 @@ https://codepen.io/v_trefil/pen/oxmdqw
  
 main inspiration
 https://yashraj.now.sh/
+
+
+
+Things left to do
+
+1. logo of 'P' from this website https://codepen.io/j-w-v/pen/RrMLjV
+
+2. Pre loader
+
+3. Experience section
+
+4. changing the content in about section from lorem ipsum to languages and your skills
+
+5. improve the contact page
+
+6. change the fixed height of projects section and change the unit to make it responsive
+
+
+MAKE THE APPLE CLONE WEBSITE PAGE RESPONSIVE AND ADD A NAVBAR
