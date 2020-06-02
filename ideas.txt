@@ -3,6 +3,9 @@ https://codepen.io/j-w-v/pen/RrMLjV
 
 loading screen
 https://codepen.io/v_trefil/pen/oxmdqw
+
+button style
+https://codepen.io/ryne/pen/PoPoqgO?editors=1100
  
 main inspiration
 https://yashraj.now.sh/
