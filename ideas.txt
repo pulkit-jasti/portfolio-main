@@ -16,7 +16,7 @@ Things left to do
 
 1. logo of 'P' from this website https://codepen.io/j-w-v/pen/RrMLjV
 
-2. Pre loader
+2. Pre loader (remember that rocket man thing, with yellow background, you can use that and change its primary and accent colors)or you might as well search for some more
 
 3. Experience section
 
@@ -26,5 +26,6 @@ Things left to do
 
 6. change the fixed height of projects section and change the unit to make it responsive
 
+7. add a linktree link on your photo in about section
 
-MAKE THE APPLE CLONE WEBSITE PAGE RESPONSIVE AND ADD A NAVBAR
+8. remove the scroll bar
