@@ -18,14 +18,18 @@ Things left to do
 
 2. Pre loader (remember that rocket man thing, with yellow background, you can use that and change its primary and accent colors)or you might as well search for some more
 
-3. Experience section
+3. Add a experience section and add your ennovab website experience.
 
 4. changing the content in about section from lorem ipsum to languages and your skills
 
-5. improve the contact page
+5. improve the contact page (look at the design from the downloaded sample portfolio with different colours)
 
 6. change the fixed height of projects section and change the unit to make it responsive
 
-7. add a linktree link on your photo in about section
-
 8. remove the scroll bar
+
+9. Add a testimonials section with and ask shahab and gnanesh to write one for you
+
+10. add the header with link to different sections
+
+11. smooth scrolling using javascript 
