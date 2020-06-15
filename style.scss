@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
 /* font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Monoton', cursive; */
 
 //COLORS
 $dark-red:#de5f5f;
@@ -21,7 +24,7 @@ $silver:#f8f8f8;
     background-repeat: no-repeat;
     
     z-index: 0;
-    list-style: none;
+    //list-style: none;
 }
 
 a{
@@ -37,21 +40,20 @@ body{
     overflow-x: hidden;
 }
 
-
-/* ------ USED TO MAKE THE SCROLL BAR INVISIBLE BUT RETIAN THE FUNCTIONALITY ------ *
-
-body::-webkit-scrollbar {
-    display: none;
-}
-/* -------------------------------------------------------------------------------- */
-
-
 a{text-decoration: none;}
 
 .container{
     padding: 0 10%;
     width: 100%;
     //background-color: lightblue;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.example {
+    -ms-overflow-style: none;
 }
 
 $accent: $bright-red;
@@ -129,6 +131,12 @@ $text-color: $silver;
     transform: translateY(-50%);
 }
 
+@media (max-width:540px){
+    .email-container, .social-container{
+        display: none;
+    }
+}
+
 
 
 //MAIN CSS
@@ -143,7 +151,6 @@ $text-color: $silver;
     .line{
         transform: translateX(-50%);
         width: 0;
-        //margin-top: 20px;
         border-left: 1px solid $silver;
         height: 100px;
     }
@@ -157,6 +164,16 @@ $text-color: $silver;
 
     .social-container{
         left: 30px;
+        //background-color: lightblue;
+
+        .logo{
+            height: 100px;
+            width: 0;
+            padding: 10px 0 0 10px;
+            //background-color: lightgreen;
+            font-family: 'Monoton', cursive;
+            font-size: 50px;
+        }
 
         .social-wrapper{
 
@@ -214,9 +231,44 @@ $text-color: $silver;
 
     header{
         position: absolute;
-        height: 70px;
+        height: 90px;
         width: 100%;
         //background-color: lightgreen;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+
+        .link-wrapper{
+            //float: right;
+            //background-color: lightblue;
+
+            ul{
+                margin-right: 70px;
+                list-style: none;
+                display: flex;
+                text-transform: capitalize;
+
+                li{
+                    font-family: 'SF Mono Regular';
+                    margin-right: 25px;
+                    font-size: .9rem;
+
+                    span{
+                        color: $bright-red;
+                        margin-right: 5px;
+                    }
+
+                    a{
+                        color: $silver;
+
+                        &:hover{
+                            color: $bright-red;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     .container{
@@ -278,20 +330,31 @@ $text-color: $silver;
             width: 45%;
             .content-wrapper{
                 margin-top: 40px;
-                
+                font-family: 'Josefin Sans', sans-serif;
+                color: $silver;
+                font-weight: 300;
+                    -webkit-font-smoothing:antialiased;
+
                 p{
                     text-align: justify;
-                    color: $silver;
-                    font-size: 1.4rem;
-                    //font-family: 'SF Mono Regular';
-                    font-family: 'Josefin Sans', sans-serif;
-                    -webkit-font-smoothing:antialiased;
                     line-height: 2rem;
-                    font-weight: 300;
-    
+                    font-size: 1.4rem;
+
                     span{
                         color: $bright-red;
-                        font-weight: 400;
+                        font-weight: 700;
+                    }
+                }
+
+                ul{
+                    list-style-type: square tye;;
+                    font-size: 20px;
+                    //color: blue;
+                    padding: 10px 0 0 20px;
+
+                    li{
+                        font-size: 1.2rem;
+                        margin-bottom: 7px;
                     }
                 }
             }
@@ -337,7 +400,7 @@ $text-color: $silver;
 
 
 .projects{
-    height: 150vh;
+    min-height: 150vh;
     width: 100%;
     background-color: $not-black-but-dark;
 
@@ -492,19 +555,19 @@ $text-color: $silver;
             }
 
             .tile-3{
-                background-image: url('images/projects/fashion.PNG');
+                background-image: url('images/projects/ennovab.PNG');
 
                 .perm-overlay{
-                    background-color: rgba(218, 74, 22, 0.92);
+                    background-color: rgba(64, 144, 187, 0.8);
                 }
 
                 .temp-overlay{
-                    background-color: rgb(218, 74, 22);
+                    background-color: rgb(64, 144, 187);
 
                     .btn-container{
                         .btn-wrapper{
                             &:hover{
-                                color: rgb(218, 74, 22);
+                                color: rgb(64, 144, 187);
                             }
                         }
                     }

@@ -32,4 +32,4 @@ Things left to do
 
 10. add the header with link to different sections
 
-11. smooth scrolling using javascript 
+11. smooth scrolling using javascript (remove the html smooth scroll)

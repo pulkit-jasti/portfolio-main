@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 /* font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Monoton', cursive; */
 * {
   margin: 0px;
   padding: 0px;
@@ -8,7 +10,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 0;
-  list-style: none;
 }
 
 a {
@@ -24,12 +25,6 @@ body {
   overflow-x: hidden;
 }
 
-/* ------ USED TO MAKE THE SCROLL BAR INVISIBLE BUT RETIAN THE FUNCTIONALITY ------ *
-
-body::-webkit-scrollbar {
-    display: none;
-}
-/* -------------------------------------------------------------------------------- */
 a {
   text-decoration: none;
 }
@@ -37,6 +32,14 @@ a {
 .container {
   padding: 0 10%;
   width: 100%;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.example {
+  -ms-overflow-style: none;
 }
 
 .button_2 {
@@ -100,6 +103,12 @@ a {
   margin-left: 20px;
 }
 
+@media (max-width: 540px) {
+  .email-container, .social-container {
+    display: none;
+  }
+}
+
 .email-container, .social-container {
   width: 60px;
   height: 100%;
@@ -124,6 +133,14 @@ a {
 
 .social-container {
   left: 30px;
+}
+
+.social-container .logo {
+  height: 100px;
+  width: 0;
+  padding: 10px 0 0 10px;
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
 }
 
 .social-container .social-wrapper .icons {
@@ -187,8 +204,49 @@ a {
 
 .home header {
   position: absolute;
-  height: 70px;
+  height: 90px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home header .link-wrapper ul {
+  margin-right: 70px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: capitalize;
+}
+
+.home header .link-wrapper ul li {
+  font-family: 'SF Mono Regular';
+  margin-right: 25px;
+  font-size: .9rem;
+}
+
+.home header .link-wrapper ul li span {
+  color: #ff5851;
+  margin-right: 5px;
+}
+
+.home header .link-wrapper ul li a {
+  color: #f8f8f8;
+}
+
+.home header .link-wrapper ul li a:hover {
+  color: #ff5851;
 }
 
 .home .container {
@@ -257,21 +315,32 @@ a {
 
 .about .container .left .content-wrapper {
   margin-top: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #f8f8f8;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
 }
 
 .about .container .left .content-wrapper p {
   text-align: justify;
-  color: #f8f8f8;
-  font-size: 1.4rem;
-  font-family: 'Josefin Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
   line-height: 2rem;
-  font-weight: 300;
+  font-size: 1.4rem;
 }
 
 .about .container .left .content-wrapper p span {
   color: #ff5851;
-  font-weight: 400;
+  font-weight: 700;
+}
+
+.about .container .left .content-wrapper ul {
+  list-style-type: square tye;
+  font-size: 20px;
+  padding: 10px 0 0 20px;
+}
+
+.about .container .left .content-wrapper ul li {
+  font-size: 1.2rem;
+  margin-bottom: 7px;
 }
 
 .about .container .right {
@@ -311,7 +380,7 @@ a {
 }
 
 .projects {
-  height: 150vh;
+  min-height: 150vh;
   width: 100%;
   background-color: #1c1b20;
 }
@@ -466,19 +535,19 @@ a {
 }
 
 .projects .container .tile-container .tile-3 {
-  background-image: url("images/projects/fashion.PNG");
+  background-image: url("images/projects/ennovab.PNG");
 }
 
 .projects .container .tile-container .tile-3 .perm-overlay {
-  background-color: rgba(218, 74, 22, 0.92);
+  background-color: rgba(64, 144, 187, 0.8);
 }
 
 .projects .container .tile-container .tile-3 .temp-overlay {
-  background-color: #da4a16;
+  background-color: #4090bb;
 }
 
 .projects .container .tile-container .tile-3 .temp-overlay .btn-container .btn-wrapper:hover {
-  color: #da4a16;
+  color: #4090bb;
 }
 
 .projects .container .tile-container .tile-4 {
