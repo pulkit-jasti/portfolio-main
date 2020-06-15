@@ -240,11 +240,10 @@ $text-color: $silver;
         justify-content: center;
 
         .link-wrapper{
-            //float: right;
-            //background-color: lightblue;
+            display: flex;
 
             ul{
-                margin-right: 70px;
+                margin-right: 20px;
                 list-style: none;
                 display: flex;
                 text-transform: capitalize;
@@ -267,18 +266,27 @@ $text-color: $silver;
                         }
                     }
                 }
+
+                li:nth-child(4){
+                    a{
+                        font-size: 1rem;
+                        padding: 10px 10px;
+                        &:hover{
+                            color: $silver;
+                        }
+                    }
+                }
             }
         }
     }
 
     .container{
         height: 100%;
+        padding-left: 13%;
         display: flex;
         align-items: center;
 
         .hero-text{
-            //background-color: lightsalmon;
-            //margin-left: 30px;
 
             p{
                 margin-left: 5px;
@@ -318,6 +326,7 @@ $text-color: $silver;
 .about{
     height: 110vh;
     width: 100%;
+    padding-left: 4%;
     background-color:$not-black-but-dark;
 
     .container{
@@ -374,7 +383,7 @@ $text-color: $silver;
                     left: 30px;
                     height: 100%;
                     width: 85%;
-                    border: 2px solid $silver;
+                    border: 2px solid $bright-red;
                     transition-duration: 100ms;
                     transition-timing-function: ease-in;
                 }
@@ -384,6 +393,8 @@ $text-color: $silver;
                     z-index: 5;
                     width: 85%;
                     transition-duration: 300ms;
+                    //-webkit-filter: sepia(100%) hue-rotate(45deg) saturate(50%);
+                    //filter: sepia(50%) hue-rotate(45deg) saturate(50%);
                 }
 
                 &:hover{
@@ -700,5 +711,33 @@ $text-color: $silver;
                 cursor: pointer;
             }
         }
+    }
+}
+
+
+.mobile{
+    display: none !important;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .text-wrapper{
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 7vmin;
+    }
+}
+
+
+
+@media (max-width:540px){
+    main{
+        display: none;
+    }
+
+    .mobile{
+        display: unset !important;
     }
 }

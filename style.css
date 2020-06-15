@@ -221,8 +221,14 @@ html::-webkit-scrollbar {
           justify-content: center;
 }
 
+.home header .link-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .home header .link-wrapper ul {
-  margin-right: 70px;
+  margin-right: 20px;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -249,8 +255,18 @@ html::-webkit-scrollbar {
   color: #ff5851;
 }
 
+.home header .link-wrapper ul li:nth-child(4) a {
+  font-size: 1rem;
+  padding: 10px 10px;
+}
+
+.home header .link-wrapper ul li:nth-child(4) a:hover {
+  color: #f8f8f8;
+}
+
 .home .container {
   height: 100%;
+  padding-left: 13%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -293,6 +309,7 @@ html::-webkit-scrollbar {
 .about {
   height: 110vh;
   width: 100%;
+  padding-left: 4%;
   background-color: #1c1b20;
 }
 
@@ -359,7 +376,7 @@ html::-webkit-scrollbar {
   left: 30px;
   height: 100%;
   width: 85%;
-  border: 2px solid #f8f8f8;
+  border: 2px solid #ff5851;
   -webkit-transition-duration: 100ms;
           transition-duration: 100ms;
   -webkit-transition-timing-function: ease-in;
@@ -669,5 +686,35 @@ html::-webkit-scrollbar {
 .contact .container h2:hover {
   border-bottom: 8px solid #ff5851;
   cursor: pointer;
+}
+
+.mobile {
+  display: none !important;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mobile .text-wrapper {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 7vmin;
+}
+
+@media (max-width: 540px) {
+  main {
+    display: none;
+  }
+  .mobile {
+    display: unset !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
