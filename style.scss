@@ -23,7 +23,6 @@ $silver: #f8f8f8;
 	background-repeat: no-repeat;
 
 	z-index: 0;
-	//list-style: none;
 }
 
 a {
@@ -46,7 +45,6 @@ a {
 .container {
 	padding: 0 10%;
 	width: 100%;
-	//background-color: lightblue;
 }
 
 html::-webkit-scrollbar {
@@ -353,7 +351,6 @@ $text-color: $silver;
 				ul {
 					list-style-type: square tye;
 					font-size: 20px;
-					//color: blue;
 					padding: 10px 0 0 20px;
 
 					li {
@@ -368,7 +365,6 @@ $text-color: $silver;
 			width: 40%;
 			.img-wrapper {
 				position: relative;
-				//background-color: lightblue;
 				width: 80%;
 
 				.box {
@@ -388,8 +384,6 @@ $text-color: $silver;
 					z-index: 5;
 					width: 85%;
 					transition-duration: 300ms;
-					//-webkit-filter: sepia(100%) hue-rotate(45deg) saturate(50%);
-					//filter: sepia(50%) hue-rotate(45deg) saturate(50%);
 				}
 
 				&:hover {
@@ -421,11 +415,9 @@ $text-color: $silver;
 				position: relative;
 				height: 210px;
 				min-width: 320px;
-				//background-color: lightcoral;
 				margin-bottom: 3vw;
 				background-position: center;
 				overflow: hidden;
-				//transition-property: all;
 				transition-duration: 400ms;
 				transition-timing-function: ease;
 
@@ -449,7 +441,6 @@ $text-color: $silver;
 					height: 100%;
 					width: 100%;
 					z-index: 3;
-					//background-color: rgba(0, 0, 0, 0.5);
 				}
 
 				.temp-overlay {
@@ -458,7 +449,6 @@ $text-color: $silver;
 					z-index: 4;
 					height: 100%;
 					width: 100%;
-					//background-color: rgba(50, 50, 50, 1);
 					transition-duration: 400ms;
 					transition-timing-function: ease;
 
@@ -495,10 +485,6 @@ $text-color: $silver;
 								.fa-github {
 									font-size: 1.4rem;
 								}
-
-								&:hover {
-									//color: $bright-red;
-								}
 							}
 						}
 					}
@@ -513,7 +499,6 @@ $text-color: $silver;
 
 					.temp-overlay {
 						top: 0;
-						//background-color: rgba(49, 49, 49, 1);
 					}
 				}
 			}
@@ -626,12 +611,12 @@ $text-color: $silver;
 				}
 
 				.temp-overlay {
-					background-color: rgba(172, 48, 255, 0.85);
+					background-color: rgba(172, 48, 255, 1);
 
 					.btn-container {
 						.btn-wrapper {
 							&:hover {
-								color: rgb(9, 9, 9);
+								color: rgba(172, 48, 255, 1);
 							}
 						}
 					}
