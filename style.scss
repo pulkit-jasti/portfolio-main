@@ -504,19 +504,19 @@ $text-color: $silver;
 			}
 
 			.tile-1 {
-				background-image: url('../images/projects/apple.PNG');
+				background-image: url('https://raw.githubusercontent.com/pulkit-jasti/Natural-events-tracker/master/screenshot.png');
 
 				.perm-overlay {
-					background-color: rgba(0, 0, 0, 0.7);
+					background-color: rgba(28, 116, 61, 0.9);
 				}
 
 				.temp-overlay {
-					background-color: rgb(45, 45, 45);
+					background-color: rgb(28, 116, 61);
 
 					.btn-container {
 						.btn-wrapper {
 							&:hover {
-								color: rgba(109, 109, 109, 0.7);
+								color: rgb(28, 116, 61);
 							}
 						}
 					}
@@ -567,16 +567,16 @@ $text-color: $silver;
 				background-image: url('https://raw.githubusercontent.com/pulkit-jasti/portfolio-main/master/images/projects/hacksrm.png');
 
 				.perm-overlay {
-					background-color: rgba(28, 116, 61, 0.8);
+					background-color: rgba(219, 83, 106, 0.9);
 				}
 
 				.temp-overlay {
-					background-color: rgb(28, 116, 61);
+					background-color: rgba(219, 83, 106, 1);
 
 					.btn-container {
 						.btn-wrapper {
 							&:hover {
-								color: rgb(28, 116, 61);
+								color: rgb(219, 83, 106);
 							}
 						}
 					}
@@ -584,7 +584,7 @@ $text-color: $silver;
 			}
 
 			.tile-5 {
-				background-image: url('https://raw.githubusercontent.com/pulkit-jasti/portfolio-main/master/images/projects/star.png');
+				background-image: url('https://raw.githubusercontent.com/pulkit-jasti/Covid-19-Tracker/master/screenshot.PNG');
 
 				.perm-overlay {
 					background-color: rgba(214, 72, 59, 0.8);
